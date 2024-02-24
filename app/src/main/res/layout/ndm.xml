@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ndm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.kruemelopment.org.drckmichspiel.BackgroundView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/button10"
+        android:background="@drawable/edmann"
+        android:ems="10"
+        android:hint="Tätigkeit 1"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:maxEms="12"
+        android:nextFocusDown="@id/editText2"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:background="@drawable/edfrau"
+        android:ems="10"
+        android:hint="Tätigkeit 2"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:maxEms="12"
+        android:nextFocusDown="@id/editText3"
+        android:gravity="center_horizontal"
+        android:layout_toEndOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edmann"
+        android:ems="10"
+        android:hint="Tätigkeit 3"
+        android:inputType="text"
+        android:maxEms="12"
+        android:nextFocusDown="@id/editText4"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText3"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignBottom="@+id/editText3"
+        android:background="@drawable/edfrau"
+        android:textColor="#000000"
+        android:ems="10"
+        android:hint="Tätigkeit 4"
+        android:inputType="text"
+        android:maxEms="12"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button2"
+        android:text="Weiter" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/titel"
+        android:textColor="#000000"
+        android:hint="Titel"
+        android:inputType="text"
+        android:nextFocusDown="@id/editText"
+        android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+</RelativeLayout>

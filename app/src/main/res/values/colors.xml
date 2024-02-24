@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4895ef</color>
+    <color name="colorPrimaryDark">#4895ef</color>
+    <color name="colorAccent">#4895ef</color>
+
+
+    <color name="blacktras">#E5000000</color>
+    <color name="hg2">#26ff00</color>
+    <color name="verwaltung">#d800ddff</color>
+    <color name="select">#9dffffff</color>
+</resources>

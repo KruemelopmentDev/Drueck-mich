@@ -1,0 +1,32 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="spielen"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutShortLabel="@string/te1"
+        android:shortcutLongLabel="@string/te2"
+        android:shortcutDisabledMessage="@string/de">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="de.kruemelopment.org.drckmichspiel"
+            android:targetClass="de.kruemelopment.org.drckmichspiel.Shortcut1" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="erstellen"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutShortLabel="@string/te3"
+        android:shortcutLongLabel="@string/te4"
+        android:shortcutDisabledMessage="@string/de">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="de.kruemelopment.org.drckmichspiel"
+            android:targetClass="de.kruemelopment.org.drckmichspiel.Shortcut2" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
